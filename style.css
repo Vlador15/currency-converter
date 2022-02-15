@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* */
+.container {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.row {
+  width: 100%;
+}
+
+.wrapper {
+  background: #fbfbfb;
+  height: 100vh;
+}
+
+header {
+  background: #d6d6d6;
+  height: 100px;
+  margin-bottom: 10rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  color: #000;
+}
+
+.converter__block {
+  width: 100%;
+}
+
+.form-converter__block,
+.form-converter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-converter__block:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.form-converter__block input {
+  width: 30%;
+}
+
+.form-converter {
+  flex-direction: column;
+}
+
+.form-converter__title {
+  margin-right: 1rem;
+}
+
+.converter__currency {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.converter__currency p {
+  margin-right: 1rem;
+}
+
+.curs {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.curs__block {
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+table thead tr th,
+table tbody tr td {
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+
+.curs__table {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}

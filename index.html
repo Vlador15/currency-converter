@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header">Конвертер валют</header>
+
+        <section class="converter">
+            <div class="container">
+                <div class="converter__block">
+                    <div class="row">
+                        <div class="converter__currency">
+                            <p>Выберите в какую валюту нужно перевести рубли:</p>
+                            <select name="currency" id="currency" class="js-input-currency">
+                                <option selected disabled>не выбрано</option> 
+                                <option value="USD">Доллар</option> 
+                                <option value="EUR">Евро</option>
+                            </select> 
+                        </div> 
+                    </div>
+    
+                    <div class="row"> 
+                        <div class="converter__form form-converter">
+                            <div class="form-converter__block">
+                                <p class="form-converter__title">Введите сумму в (Р)</p>
+                                <input class="js-input-value" type="text" value="">
+                            </div>
+                            
+                            <div class="form-converter__block">
+                                <p class="form-converter__title">Результат в (<span class="js-result-text"></span>)</p>
+                                <input class="js-result-value" type="text" value=""> 
+                            </div>  
+                        </div> 
+                    </div>  
+                </div>  
+            </div>
+        </section>
+
+        <section class="curs">
+            <div class="container">
+                <div class="curs__block">
+                    <div class="row"> 
+                        <div class="curs__table">
+                            <table class="js-curs-table">
+                                <caption>Курс валют</caption>
+                                <thead>
+                                    <tr>
+                                        <th>Код</th>
+                                        <th>Валюта</th>
+                                        <th>Курс к рублю</th>
+                                    </tr> 
+                                </thead>
+                                <tbody> 
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+     
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
