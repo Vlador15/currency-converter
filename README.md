@@ -1,9 +1,9 @@
 <h3>Pet-project: конвертер валют</h3>
 
 <p>Простой проект, позволяющий конвертировать рубли в любую валюту (актуальный курс получается по API)
-
- [](https://i.imgur.com/Skf0j0A.png)
-    
+ 
+<img src="https://i.imgur.com/Skf0j0A.png" max-width="600" />
+ 
 <p>Стек:</p>
 <ul>
     <li>Html</li>
